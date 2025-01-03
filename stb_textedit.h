@@ -357,7 +357,7 @@ typedef struct
 // the text in each row is.
 
 // result of layout query
-typedef struct
+typedef struct StbTexteditRowStruct
 {
    float x0,x1;             // starting x location, end x location (allows for align=right, etc)
    float baseline_y_delta;  // position of baseline relative to previous row's baseline
